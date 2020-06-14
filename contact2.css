@@ -1,0 +1,253 @@
+
+*{	
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 50, 0.5)), url(contact2.jpg);
+	height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	font-family:sans-serif;
+
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)),url(./i.jpg);
+	height: .001px;
+	background-size: top;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block; 
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease-in-out;
+}
+
+ul li a:hover{
+	background-color: #fff; 
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff; 
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+
+}
+
+.article {
+	position:absolute;
+	top: 30%;
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+
+.article h1{
+	color: white;
+	font-size: 50px;
+
+}
+
+
+.article p{
+	color: grey;
+	font-size: 15px;
+}
+
+.article-title {
+	margin-bottom: 15px;
+}
+
+.article .article-image {
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    margin-left: 14px;
+    margin-right: auto;
+	display: block;
+}
+
+.article b{
+	margin-left: 5px;
+	color: yellow;
+	font-size: 15px
+}
+
+.button{
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+
+	border:1px solid #fff;
+	padding:10px 30px;
+	color:#fff;
+	text-decoration:none;
+
+}
+footer{
+text-align:center;
+background-color:#333;
+color:#fff;
+padding:23px;
+position:relative;
+bottom:0;
+width:1155px;
+height:60px;
+
+
+}
+
+.contact-title{
+margin-top:100px;
+color:black;
+text-transform:uppercase;
+transition:all 4s ease-in-out;
+	
+}
+
+.contact-title h1{
+font-size:32px;
+line-height:10px;
+
+}
+
+.contact-title h2{
+	font-size:24px;
+
+}
+
+
+
+form{
+
+	margin-top:50px;
+	transition: all 4s ease-in-out;
+}
+.form-control {
+	width:600px;
+	background:transparent;
+	border:none;
+	outline:none;
+	border-bottom:1px solid gray;
+	color:#fff;
+	font-size:18px;
+	margin-bottom:16px;
+
+}
+input{
+
+	height:45px;
+
+}
+
+form .submit{
+	background: #ff5722;
+	border-color:transparent;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	margin-top:20px;
+
+}
+
+form.submit:hover{
+	background-color:#f44336;
+	cursor:pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
